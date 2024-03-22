@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/entradaDinheiro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="Digite o valor desejado"
+        android:textSize="30sp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/entradaValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="Digite o valor da gasolina"
+        android:textSize="30sp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/calcular"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="300dp"
+        android:text="calcular"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"/>
+
+    <EditText
+        android:id="@+id/litrosGasolina"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="400dp"
+        android:textSize="30sp"/>
+
+</RelativeLayout>
